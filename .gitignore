@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded documents and generated data
+data/*
+!data/.gitkeep
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
