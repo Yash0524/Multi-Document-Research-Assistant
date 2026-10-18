@@ -28,3 +28,11 @@ data/*
 .vscode/
 .DS_Store
 Thumbs.db
+
+# ChromaDB generated vector database
+backend/chroma_db/
+
+# Python test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
